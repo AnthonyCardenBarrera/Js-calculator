@@ -1,0 +1,173 @@
+body, #calculator {
+  background: linear-gradient(0.46turn, #34ebcc 20%, #8b9996 60%);
+  height: 100vh;
+  width: 100vw;
+}
+#calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+#app {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "disp disp disp disp"
+    "btn7 btn8 btn9 btnDivide"
+    "btn4 btn5 btn6 btnMultiply"
+    "btn1 btn2 btn3 btnAdd"
+    "btnClear btn0 btnDecimal btnSubtract"
+    "btnEquals btnEquals btnEquals btnEquals";
+  height: 440px;
+  width: 320px;
+  border-style: solid;
+  border-color: black;
+  border-width: 7px;
+  border-radius: 3%
+}
+#display{
+  background-color: white;
+  grid-area: disp;
+  font-size: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+#zero{
+  grid-area: btn0;
+  font-size: 20px;
+  background-color: #42e6f5;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#one{
+  grid-area: btn1;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#two{
+  grid-area: btn2;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#three{
+  grid-area: btn3;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#four{
+  grid-area: btn4;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#five{
+  grid-area: btn5;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#six{
+  grid-area: btn6;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#seven{
+  grid-area: btn7;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#eight{
+  grid-area: btn8;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#nine{
+  grid-area: btn9;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#add{
+  grid-area: btnAdd;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#subtract{
+  grid-area: btnSubtract;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#multiply{
+  grid-area: btnMultiply;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#divide{
+  grid-area: btnDivide;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#clear{
+  grid-area: btnClear;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#decimal{
+  grid-area: btnDecimal;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+#equals{
+  grid-area: btnEquals;
+  font-size: 20px;
+  background-color: #42e6f5;
+   border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
